@@ -118,7 +118,7 @@ a:hover{
   opacity: 1;
 }
 section{
-  padding-top: 2vh;
+  padding-top: 4vh;
   height: 96vh;
   margin: 0 8rem;
   box-sizing: border-box;
@@ -268,4 +268,23 @@ gap: 20px;
   width: 1.5rem;
   cursor: pointer;
   justify-content: center;
+}
+.scroll{
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: rgb(255, 255, 255) url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath fill='currentColor' d='M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z'%3E%3C/path%3E%3C/svg%3E") center no-repeat;
+  box-shadow: 0 0.25rem 0.5rem 0 gray;
+  opacity: 0.5;
+}
+.contact_box{
+  gap:3rem;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact_up{
+  align-items: center;
 }

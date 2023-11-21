@@ -1,11 +1,18 @@
 @media screen and (max-width:1200px) {
     #hamburger-nav{
-        display: flex;   
+        display: flex;
+        z-index: 1;
+        position: relative;
+        height: 17vh;
+        width: 400px;
+        padding-left: 100px;
+        justify-content: space-around;
+        align-items: center;
     }
     #desktop-nav{
         display: none;
     }
-    #about,.container{
+    #about,#membership,#live,#playlist,#contact,#shorts,.container{
         display: block;
         justify-content: center;
     }
@@ -13,9 +20,41 @@
         display: none;
     }
     .logo{
-        display: flex;
-  gap: 15px;
-  height: 80%;
-  justify-content: center;
+        display: block;
+        font-size: 2rem;
         }
+    
+    .playlist_box{
+        padding: 2rem;
+        border-radius: 3rem;
+        width: 290px;
+    }
+    iframe{
+        width: 220px;
+        height: 200px;
+    }
+    .pic_con{
+        height: 300px;
+        width: 300px;
+    }
+    .about_video{
+        padding: 23px;
+    }
+    .iframe_about{
+        width: 300px;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    footer{
+        padding-left: 130px; 
+    }
+    .details_box,.details_box_small{
+        width: 300px;
+        padding: 1rem;
+    }
+    .playlist_box{
+
+    }
 }
