@@ -1,15 +1,10 @@
 @media screen and (max-width:1200px) {
-    body{
-        
-    }
     #hamburger-nav{
         display: flex;
         z-index: 1;
         position: relative;
         height: 17vh;
-        width: 400px;
         justify-content: space-around;
-        align-items: center;
     }
     #desktop-nav{
         display: none;
@@ -17,6 +12,9 @@
     #about,#membership,#live,#playlist,#contact,#shorts,.container{
         display: block;
         justify-content: center;
+        margin:0;
+        padding: 20px;
+
     }
     .nav-links-box{
         display: none;
@@ -27,9 +25,8 @@
         }
     
     .playlist_box{
-        padding: 2rem;
         border-radius: 3rem;
-        width: 290px;
+        width: 250px;
     }
     iframe{
         width: 220px;
@@ -38,14 +35,15 @@
     .pic_con{
         height: 300px;
         width: 300px;
+        padding-left: 10px;
     }
     .about_video{
-        padding: 20px;
+        padding: 10px;
     }
     .iframe_about{
         width: 300px;
     }
-    footer nav{
+    nav{
         height: fit-content;
         margin-bottom: 2rem;
     }
@@ -55,5 +53,15 @@
     .details_box,.details_box_small{
         width: 300px;
         padding: 1rem;
+    }
+    .text_h1_abt{
+        font-size: 2.5rem;
+        padding-left: 10px;
+    }
+    .pic_gap{
+        gap:2rem;
+    }
+    .h2_mem{
+        font-size: 2.5rem;
     }
 }
