@@ -38,7 +38,7 @@
         width: 300px;
     }
     .about_video{
-        padding: 23px;
+        padding: 20px;
     }
     .iframe_about{
         width: 300px;
@@ -53,8 +53,5 @@
     .details_box,.details_box_small{
         width: 300px;
         padding: 1rem;
-    }
-    .playlist_box{
-
     }
 }
