@@ -1,0 +1,21 @@
+@media screen and (max-width:1200px) {
+    #hamburger-nav{
+        display: flex;   
+    }
+    #desktop-nav{
+        display: none;
+    }
+    #about,.container{
+        display: block;
+        justify-content: center;
+    }
+    .nav-links-box{
+        display: none;
+    }
+    .logo{
+        display: flex;
+  gap: 15px;
+  height: 80%;
+  justify-content: center;
+        }
+}
