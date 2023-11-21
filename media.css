@@ -1,11 +1,13 @@
 @media screen and (max-width:1200px) {
+    body{
+        
+    }
     #hamburger-nav{
         display: flex;
         z-index: 1;
         position: relative;
         height: 17vh;
         width: 400px;
-        padding-left: 100px;
         justify-content: space-around;
         align-items: center;
     }
